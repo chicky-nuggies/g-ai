@@ -112,6 +112,56 @@ nav{
     height: 330px;
 }
 
+.recommendation{
+    margin-top: 10px;
+    position: relative;
+}
+
+.stock_rec{
+    margin-top: 10px;
+    width: 220px;
+    height: 32px;
+    border-radius: 3px;
+    border: 3px solid rgba(194, 171, 229, 0.97);
+    box-shadow: 0px 4px 4px 5px #EFE6FE;
+    position: absolute;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+.stock_rec p{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700; 
+}
+
+
+.rec_output{
+    overflow: auto;
+    margin-top: 45px;
+    margin-left: 5px;
+    padding-left: 5px;
+
+}
+.rec_output::-webkit-scrollbar{
+    width: 4px;
+    background-color: #8E7AAB;
+}
+
+.rec{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.summary{
+    text-align: left;
+    font-size: 12px;
+
+}
 /*
 .com_rec{
     float: right;
