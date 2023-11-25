@@ -145,6 +145,7 @@ nav{
     height: 100px;
     overflow: auto;
     margin-top: 45px;
+    margin-left: 5px;
 }
 
 .stan_output::-webkit-scrollbar {
@@ -231,10 +232,9 @@ nav{
     /* wei shen change */
     margin-top: 25px;
     margin-left: 10px;
-    margin-left: 10px;
+    margin-bottom: 15px;
     text-align: left;
     font-size: 11px;
-
 }
 
 /* wei shen add */
