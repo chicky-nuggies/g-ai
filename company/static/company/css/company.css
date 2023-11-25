@@ -140,11 +140,17 @@ nav{
 }
 
 .stan_output{
-    margin-top: 25px;
+    margin-top: 40px;    
     width: 615px;
     height: 100px;
     overflow: auto;
 }
+
+.stan_output::-webkit-scrollbar {
+    width: 4px;
+    background-color: #8E7AAB;
+}
+
 
 .stan_output p{
     margin-top: 40px;
