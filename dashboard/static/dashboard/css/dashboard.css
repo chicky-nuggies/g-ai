@@ -1,0 +1,174 @@
+body{
+    background-color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.logo{
+    width: 150px;
+    height: 75px;
+    flex-shrink: 0;
+    padding-left: 15px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    display: flex;
+    align-items:center;
+}
+
+.navlist{
+    overflow: hidden;
+    padding-right: 440px;
+}
+
+.item {
+    display: inline;
+    padding-right: 30px;
+    font-size: 14px;
+}
+
+.item a:link{
+    color: black;
+    text-decoration: none;
+
+}
+
+.item a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color: rgba(194, 171, 229, 0.97);
+}
+
+.profile{
+    width: 28px;
+    height: 28px;  
+    float: right;
+    
+}
+
+.user{
+    float: right;
+    padding-left: 0px;
+    padding-right: 10px;
+    font-size: 11px;
+    
+}
+
+#search{
+    padding-right: 35px;
+    margin-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    border: 1px solid #A9A9A9;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.10);
+    color: #A9A9A9;
+    line-height: 20px;
+}
+
+.pphead {
+    width: 100%; 
+    height: 70px; 
+    background: linear-gradient(180deg, #EFE6FE 0%, rgba(207, 189, 234, 0.97) 20.31%, rgba(194, 171, 229, 0.97) 40.1%, rgba(209, 191, 235, 0.94) 59.9%, rgba(227, 210, 251, 0.96) 83.85%, rgba(249, 245, 255, 0.50) 100%);
+    margin-top: 80px;
+}
+
+.title{
+    margin-top: -40px;
+    width: 300px;
+    height: 46px;
+    position: absolute;
+    border: 1px solid rgba(249, 245, 255, 0.50);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 3px #8E7AAB;
+    margin-left: 38%;
+}
+
+.title p{
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    line-height: 15px;
+    
+}
+
+.impact{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 640px;
+    height: 320px;
+    position: relative;
+}
+
+.im_title{
+    margin-top: -15px;
+    width: 180px;
+    height: 32px;
+    border-radius: 3px;
+    border: 3px solid rgba(194, 171, 229, 0.97);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 5px #EFE6FE;
+    position: absolute;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+.im_title p{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700; 
+}
+
+.im_table{
+    margin-top: 25px;
+    width: 320px;
+    height: 200px;
+    border-radius: 33px;
+    border: 3px solid rgba(194, 171, 229, 0.97);
+    box-shadow: 0px 4px 4px 5px #EFE6FE;
+}
+
+.news{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 14px;
+    border: 1px solid  rgba(194, 171, 229, 0.97);
+    
+}
+
+th,td{
+    font-size: 10pt;
+}
+th:nth-child(1){
+    padding-right: 180px;
+}
+
+th{
+    border-bottom: 1px solid rgba(194, 171, 229, 0.97);
+    ;
+}
+
+footer{
+    width: 100%;
+    height: 35px;
+    border: 2px solid #EFE6FE;
+    background-color: rgba(227, 210, 251, 0.96);
+    position: fixed;
+    bottom: 0;
+}
+
+footer p{
+    color: #FFF;
+    font-size: 12px;
+    padding-left: 10px;
+}
