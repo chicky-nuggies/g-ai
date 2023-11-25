@@ -31,15 +31,13 @@
     <div class="holding">
         <img src="{% static 'portfolio/images/hold.png' %}" alt="hold pic" class="hold">
     </div>
-    <div class="recommendation">
-        <div class="rec_title"><p>G-AI Recommendations</p></div>
-        
-        <!-- <div class="rec_output"> <p>hopefully got output</p></div> -->
-        <div class="rec_output"> <p>{{recommendations}}</p></div>
-        
-        <div class="summary"> <p>{{summary}}</p></div>
 
-
+    <div class="com_rec">
+        <div class="rec_title"><p>G-AI Company's Stance</p></div>      
+        <div class="rec_output">
+            <p class="rec">{{recommendation}}</p>
+            <p class="summary">{{summary}}</p>
+        </div>  
         
     </div>
 
