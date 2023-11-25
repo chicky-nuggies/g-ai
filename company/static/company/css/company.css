@@ -187,7 +187,7 @@ nav{
 }
 .chat_title{
     margin-top: 10px;
-    width: 220px;
+    width: 170px;
     height: 32px;
     border-radius: 3px;
     border: 3px solid rgba(194, 171, 229, 0.97);
@@ -235,6 +235,7 @@ nav{
     margin-top: 25px;
     margin-left: 10px;
     margin-bottom: 15px;
+    margin-right: 10px;
     text-align: left;
     font-size: 11px;
 }
