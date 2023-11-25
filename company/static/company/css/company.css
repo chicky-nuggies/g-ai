@@ -157,7 +157,6 @@ nav{
     font-size: 12px;
     font-weight: bold;
     margin-top: 40px;
-    padding-top: 10px;
 }
 
 .issue2{
@@ -234,7 +233,7 @@ nav{
     margin-left: 10px;
     margin-left: 10px;
     text-align: left;
-    font-size: 12px;
+    font-size: 11px;
 
 }
 
@@ -242,7 +241,7 @@ nav{
 .chat_window form{
     position: absolute;
     left: 20px;
-    bottom: -90px;
+    bottom: -100px;
 
 }
 
