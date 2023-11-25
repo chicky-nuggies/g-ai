@@ -9,7 +9,7 @@ brt = boto3.client(service_name='bedrock-runtime', region_name="us-east-1")
 def portfolio(request):
 
     # Change here
-    recommendations_prompt = "what to do when suicidal"
+    recommendations_prompt = "what is taylor's university"
 
     recommendations_input = "\n\nHuman: {}\n\nAssistant:".format(recommendations_prompt)
 

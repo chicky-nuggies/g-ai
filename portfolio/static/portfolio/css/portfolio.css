@@ -112,12 +112,14 @@ nav{
     height: 330px;
 }
 
+/*
 .com_rec{
     float: right;
     margin-top: 10px;
     width: 660px;
     height: 320px;
     position: relative;
+    margin-left: 570px;
 }
 
 .rec_title{
@@ -164,6 +166,8 @@ nav{
     font-size: 12px;
     text-align: left;
 }
+
+*/
 
 .rec_output::-webkit-scrollbar {
     width: 4px;
