@@ -120,11 +120,11 @@ def find_issues():
     issue_ans = ai(1, issue_prompt)
     return [issue_ans["issue_interested1"], issue_ans["issue_interested2"]]
 
-def gen_portfolio():
-    profile = settings.PROFILE
+def gen_portfolio(is1, is2):
+    # profile = settings.PROFILE
     prompt = f'''Human:\n
-        {profile}\n
-        Based on the above, recommed two stocks in a JSON format:
+        {settings.PROFILE}\n
+        Based on the above profile, recommed two stocks that do good in {is1} and {is2} while making sure the stocks are poised for growth, present in a JSON format:
         {{
         "stock1companyname": answer,
         "stock1ticker": answer,
@@ -152,7 +152,7 @@ def startup():
     issue1 = settings.ISSUES[0]
     issue2 = settings.ISSUES[1]
 
-    settings.PORTFOLIO = gen_portfolio()
+    settings.PORTFOLIO = gen_portfolio(issue1,issue2)
 
     settings.STANCES = company_stance("Nestle", issue1, issue2)
 
