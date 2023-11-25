@@ -139,8 +139,7 @@ nav{
     font-weight: 700; 
 }
 
-.stan_output{
-    /*margin-top: 40px; */    
+.stan_output{ 
     width: 615px;
     height: 100px;
     overflow: auto;
@@ -155,7 +154,7 @@ nav{
     font-size: 16px;
     font-weight: bold;
     margin-top: 40px;
-    padding-bottom: 0px;
+    padding-top: 40px;
 }
 
 .issue2{
@@ -171,7 +170,6 @@ nav{
     padding-bottom: 0px;
 }
 .stan_output p{
-    margin-top: 40px;
     text-align: center;
     font-size: 12px;
 }
