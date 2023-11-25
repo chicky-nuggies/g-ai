@@ -146,6 +146,7 @@ nav{
     overflow: auto;
     margin-top: 45px;
     margin-left: 5px;
+    padding-left: 5px;
 }
 
 .stan_output::-webkit-scrollbar {
@@ -154,14 +155,14 @@ nav{
 }
 
 .issue1{
-    text-align: left;
+    text-align: center;
     font-size: 12px;
     font-weight: bold;
     margin-top: 40px;
 }
 
 .issue2{
-    text-align: left;
+    text-align: center;
     font-size: 12px;
     font-weight: bold;
     margin-top: 10px;
@@ -215,6 +216,7 @@ nav{
     box-shadow: 0px 4px 4px 10px #EFE6FE;
 /* wei shen add */
     overflow: auto;
+    padding-top: 5px;
     padding-bottom: 20px;
 }
 
