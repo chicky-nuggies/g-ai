@@ -17,7 +17,7 @@
         <ul class="navlist">
             <li class="item"><a href="/company">Stocks</a></li>
             <li class="item"><a href="#">Subscription</a></li>
-            <li class="item"><a href="portfolio.html">Portfolio</a></li>
+            <li class="item"><a href="/portfolio">Portfolio</a></li>
         </ul>
         <input type="text" placeholder="Search stocks..." id="search">
         <p class="user">Lim Lukesh <br>Muhammad</p>
@@ -31,7 +31,9 @@
     </div>
     <div class="stance">
         <div class="com_stan"><p>G-AI Company's Stance</p></div>      
-        <div class="stan_output"><p>some output</p></div>  
+        <!-- <div class="stan_output"><p>some output</p></div>  -->
+        <div class="stan_output"><p>{{stock_info}}</p></div>  
+
 
     </div>
     <div class="chatbot">
@@ -39,7 +41,7 @@
  
         <div class="chat_window">
             
-            <p>{{generated_text}}</p>
+            <p>{{chatbot_output}}</p>
 
 
             <form method="POST">
