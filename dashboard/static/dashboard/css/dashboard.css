@@ -100,8 +100,10 @@ nav{
 }
 
 .dash{
-    height: 420px;
+    height: 410px;
     width: 1100px;
+    margin-bottom: 2px;
+    margin-left: 20px;
 }
 
 footer{
