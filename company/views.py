@@ -113,7 +113,7 @@ Invitation to Collaborate on a Charity Event	Dear Siti, we admire your dedicatio
 Newsletter - Latest Developments in Conflict Zones	Hi Siti, here's our latest newsletter highlighting updates and developments in conflict zones. Stay informed about ongoing global issues and their impact.
 '''
     prompt = "Human: \nBased on the list of emails:\n\n<email>\n" + email + "\n\nProfile this user by including their social views, risk tolerance, personality, provide long explanations\nAssistant:"
-    brt = boto3.client(service_name='bedrock-runtime')
+    # brt = boto3.client(service_name='bedrock-runtime', )
     modelId = 'anthropic.claude-v2'
         
     accept = 'application/json'
