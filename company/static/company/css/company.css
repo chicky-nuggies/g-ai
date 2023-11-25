@@ -144,6 +144,7 @@ nav{
     width: 615px;
     height: 100px;
     overflow: auto;
+    font-weight: bold;
 }
 
 .stan_output::-webkit-scrollbar {
@@ -151,13 +152,19 @@ nav{
     background-color: #8E7AAB;
 }
 
-.heading{
-    font-size: 17px;
+.stan{
+    font-size: 16px;
     font-weight: bold;
-    margin-bottom: 0px;
+    margin-top: 5px;
     padding-bottom: 0px;
 }
 
+.stan_content{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
 .stan_output p{
     margin-top: 40px;
     text-align: center;
@@ -203,7 +210,12 @@ nav{
     box-shadow: 0px 4px 4px 10px #EFE6FE;
 /* wei shen add */
     overflow: auto;
-    
+    padding-bottom: 20px;
+}
+
+.chat_window::-webkit-scrollbar {
+    width: 4px;
+    background-color: #8E7AAB;
 }
 
 /* wei shen add 
