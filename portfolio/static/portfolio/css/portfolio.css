@@ -151,10 +151,19 @@ nav{
     overflow: auto;
 }
 
-.rec_output p{
-    font-size: 13px;
+.rec{
+    font-size: 12px;
     margin-top: 30px;
-    text-align: center;
+    text-align: left;
+}
+.summary{
+    font-size: 12px;
+    text-align: left;
+}
+
+.rec_output::-webkit-scrollbar {
+    width: 4px;
+    background-color: #8E7AAB;
 }
 footer{
     width: 100%;
