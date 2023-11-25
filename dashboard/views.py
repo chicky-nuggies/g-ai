@@ -2,18 +2,10 @@ import boto3
 from django.shortcuts import render
 from django.http import HttpResponse
 
-import pandas as pd
-
-data = pd.DataFrame({
-    'feature1': pd.Series([1, 0, 0, 1]),
-    'feature2': pd.Series([0, 1, 1, 0]),
-    'target': pd.Series([1, 0, 1, 1])
-})
-
 
 
 def index(request):
-    return render(request, "dashboard/index.html")
+    return render(request, "dashboard/dashboard.html")
 
 
 def predict_using_sagemaker_local_mode(request):
