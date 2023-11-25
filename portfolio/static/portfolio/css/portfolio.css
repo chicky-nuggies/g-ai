@@ -9,6 +9,8 @@ body{
     padding-left: 15px;
 }
 
+
+
 nav{
     position: fixed;
     width: 100%;
@@ -98,6 +100,16 @@ nav{
     margin-top: 10px;
     line-height: 15px;
     font-size: 18px; 
+}
+
+.holding{
+    float: left;
+}
+
+.hold{
+    margin-top: 10px;
+    width: 560px;
+    height: 330px;
 }
 
 .recommendation{

@@ -13,11 +13,11 @@
 <body>
     <!-- Navbar & Title -->
     <nav>
-        <a href="dashboard.html"><img src="{% static 'portfolio/images/logo.png' %}" alt="logo" class="logo"></a>
+        <a href="dashboard"><img src="{% static 'portfolio/images/logo.png' %}" alt="logo" class="logo"></a>
         <ul class="navlist">
-            <li class="item"><a href="company.html">Stocks</a></li>
+            <li class="item"><a href="company">Stocks</a></li>
             <li class="item"><a href="#">Subscription</a></li>
-            <li class="item"><a href="portfolio.html'">Portfolio</a></li>
+            <li class="item"><a href="portfolio">Portfolio</a></li>
         </ul>
         <input type="text" placeholder="Search stocks..." id="search">
         <p class="user">Lim Lukesh <br>Muhammad</p>
@@ -28,7 +28,9 @@
     <div class="title">
         <p class="ptitle">Your Portfolio <br><span style="font-size: 10px; font-weight: lighter;">as of 25/11/2023, 21:27</span></p>
     </div>
-
+    <div class="holding">
+        <img src="{% static 'portfolio/images/hold.png' %}" alt="hold pic" class="hold">
+    </div>
     <div class="recommendation">
         <div class="rec_title"><p>G-AI Recommendations</p></div>
         <div class="rec_output"> <p>hopefully got output</p>
