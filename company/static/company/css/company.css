@@ -144,7 +144,7 @@ nav{
     width: 615px;
     height: 100px;
     overflow: auto;
-    margin-top: 20px;
+    margin-top: 45px;
 }
 
 .stan_output::-webkit-scrollbar {
@@ -154,22 +154,22 @@ nav{
 
 .issue1{
     text-align: left;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     margin-top: 40px;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .issue2{
     text-align: left;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     margin-top: 10px;
     
 }
 .stan_content{
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: normal;
     margin-top: 0px;
     padding-bottom: 0px;
@@ -242,7 +242,7 @@ nav{
 .chat_window form{
     position: absolute;
     left: 20px;
-    bottom: -50px;
+    bottom: -90px;
 
 }
 
