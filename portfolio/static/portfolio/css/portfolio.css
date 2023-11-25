@@ -165,12 +165,18 @@ nav{
     text-align: left;
     font-size: 14px;
     margin-top: 40px;
+    font-weight: bold;
+}
+
+.percent{
+    text-align: left;
+    font-size:10px;
+    color: #8E7AAB;
 }
 
 .summary{
     text-align: left;
-    font-size: 14px;
-
+    font-size: 12px;
 }
 /*
 .com_rec{

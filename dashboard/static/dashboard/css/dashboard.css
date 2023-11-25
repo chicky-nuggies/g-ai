@@ -99,63 +99,9 @@ nav{
     
 }
 
-.impact{
-    margin-top: 10px;
-    margin-left: 20px;
-    width: 640px;
-    height: 320px;
-    position: relative;
-}
-
-.im_title{
-    margin-top: -15px;
-    width: 180px;
-    height: 32px;
-    border-radius: 3px;
-    border: 3px solid rgba(194, 171, 229, 0.97);
-    background: #FFF;
-    box-shadow: 0px 4px 4px 5px #EFE6FE;
-    position: absolute;
-    margin-left: 20px;
-    border-radius: 3px;
-}
-
-.im_title p{
-    position: absolute;
-    margin-top: 5px;
-    margin-left: 10px;
-    font-size: 16px;
-    color: #000;
-    font-weight: 700; 
-}
-
-.im_table{
-    margin-top: 25px;
-    width: 320px;
-    height: 200px;
-    border-radius: 33px;
-    border: 3px solid rgba(194, 171, 229, 0.97);
-    box-shadow: 0px 4px 4px 5px #EFE6FE;
-}
-
-.news{
-    margin-top: 30px;
-    margin-left: 10px;
-    font-size: 14px;
-    border: 1px solid  rgba(194, 171, 229, 0.97);
-    
-}
-
-th,td{
-    font-size: 10pt;
-}
-th:nth-child(1){
-    padding-right: 180px;
-}
-
-th{
-    border-bottom: 1px solid rgba(194, 171, 229, 0.97);
-    ;
+.dash{
+    height: fit-content;
+    width: fit-content;
 }
 
 footer{
