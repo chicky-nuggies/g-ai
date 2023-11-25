@@ -157,18 +157,15 @@ def find_issues():
     return [issue_ans["issue_interested1"], issue_ans["issue_interested2"]]
 
 def company(request):
-    settings.PROFILE = gen_profile()
+    # settings.PROFILE = gen_profile()
     
-    issues = find_issues()
-    issue1 = issues[0]
-    issue2 = issues[1]
+    # issues = find_issues()
+    issue1 = settings.ISSUES[0]
+    issue2 = settings.ISSUES[1]
 
-    stance = company_stance("Nestle", issue1, issue2)
-    stance1 = stance[issue1]
-    stance2 = stance[issue2]
-
-
-
+    # stance = company_stance("Nestle", issue1, issue2)
+    stance1 = settings.STANCES[issue1]
+    stance2 = settings.STANCES[issue2]
 
     if request.method == 'POST':
         user_input = request.POST['user_input']
