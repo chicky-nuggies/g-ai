@@ -13,7 +13,7 @@
 <body>
     <!-- Navbar & Title -->
     <nav>
-        <a href=""><img src="{% static 'company/images/logo.png' %}" alt="logo" class="logo"></a>
+        <a href="/"><img src="{% static 'company/images/logo.png' %}" alt="logo" class="logo"></a>
         <ul class="navlist">
             <li class="item"><a href="/company">Stocks</a></li>
             <li class="item"><a href="#">Subscription</a></li>
@@ -30,11 +30,25 @@
     <div class="stance">
         <div class="com_stan"><p>G-AI Company's Stance</p></div>      
         <div class="stan_output"><p>some output</p></div>  
+
     </div>
     <div class="chatbot">
-        <div class="chat_title"><p>G-AI ChatBot</p></div>      
-        <div class="chat_window"><p>blablabla</p></div>  
+        <div class="chat_title"><p>G-AI ChatBot</p></div>
+ 
+        <div class="chat_window">
+            
+            <p>{{generated_text}}</p>
+
+
+            <form method="POST">
+                {% csrf_token %}
+                <input type="text" name="user_input" placeholder="Enter your prompt">
+                <button type="submit">Send</button>
+            </form>     
+        
+        </div>  
     </div>
+
 
     <!-- Footer -->
     <footer>
