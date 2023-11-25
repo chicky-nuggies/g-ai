@@ -100,6 +100,15 @@ nav{
     font-size: 14px;
 }
 
+.pic{
+    float: left;
+}
+
+.stock{
+    width: 600px;
+    height: 400px;
+
+}
 .stance{
     float: right;
     margin-top: 10px;
