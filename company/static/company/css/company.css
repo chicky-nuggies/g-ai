@@ -151,6 +151,10 @@ nav{
     background-color: #8E7AAB;
 }
 
+.heading{
+    font-size: 17px;
+    font-weight: bold;
+}
 
 .stan_output p{
     margin-top: 40px;
