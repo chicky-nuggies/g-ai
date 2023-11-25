@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="{% static 'dashboard/css/dashboard.css' %}">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="{% static 'company/css/company.css' %}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap">
 
 
@@ -13,7 +13,7 @@
 <body>
     <!-- Navbar & Title -->
     <nav>
-        <a href="dashboard.html"><img src="{% static 'dashboard/images/logo.png' %}" alt="logo" class="logo"></a>
+        <a href="dashboard.html"><img src="{% static 'company/images/logo.png' %}" alt="logo" class="logo"></a>
         <ul class="navlist">
             <li class="item"><a href="/company">Stocks</a></li>
             <li class="item"><a href="#">Subscription</a></li>
@@ -21,26 +21,20 @@
         </ul>
         <input type="text" placeholder="Search stocks..." id="search">
         <p class="user">Lim Lukesh <br>Muhammad</p>
-        <img src="{% static 'dashboard/images/profile.jpg' %}" alt="profile icon" class="profile">
+        <img src="{% static 'company/images/profile.jpg' %}" alt="profile icon" class="profile">
     </nav>
 
     <div class="pphead"></div>
-    <div class="title"><p>Your Dashboard</p></div>
+    <div class="title"><p>Starbucks Corporation <br> NASDAQ:SBUX</p></div>
 
-    <div class="impact">
-        <div class="im_title"><p>News Impact Meter</p></div>
-        <div class="im_table">
-            <table class="news">
-                <tr>
-                    <th>News</th>
-                    <th>Probablity</th>
-                </tr>
-                <tr>
-                    <td>output</td>
-                    <td>p/n</td>
-                </tr>
-            </table>
-        </div>
+    <div class="stance">
+        <div class="com_stan"><p>G-AI Company's Stance</p></div>      
+        <div class="stan_output"><p>some output</p></div>  
+    </div>
+    <div class="chatbot">
+        <div class="chat_title"><p>G-AI ChatBot</p></div>      
+        <div class="chat_window"><p>blablabla</p></div>  
+    </div>
 
     <!-- Footer -->
     <footer>

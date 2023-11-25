@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 
 
-def index(request):
+def dashboard(request):
     return render(request, "dashboard/dashboard.html")
 
 
