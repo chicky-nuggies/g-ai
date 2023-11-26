@@ -13,7 +13,7 @@ def chatbot(user_input):
             # Clean and format user input
             clean_input = user_input.strip().lower()
 
-            final_input = "\n\nHuman: {}\n\nAssistant:".format(clean_input)
+            final_input = "\n\nHuman: {}\nAnswer in less than 50 words.\nAssistant:".format(clean_input)
             print(clean_input)
 
 
